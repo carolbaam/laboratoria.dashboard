@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Data Dashboard</title>
+  <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+  <link rel="icon" type="image/jpg" href="assets/images/laboratoria-l.jpg">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+      <img src="assets/images/laboratoria-logo.png" alt="Laboratoria Logo">
+    </header>
+
+    <nav>
+      <img src="assets/images/laboratoria-l.jpg" height="70px" alt="Laboratoria">
+      <i class="fa fa-user-circle-o fa-3x" aria-hidden="true"></i>
+      <i class="fa fa-bell fa-2x" aria-hidden="true"></i>
+      <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+    </nav>
+
+    <section class="main_menu">
+      <img src="assets/images/laboratoria_small_logo.png" alt="Laboratoria Small Logo">
+      <i class="fa fa-user-circle-o fa-3x" aria-hidden="true"></i>
+      <div class="welcome_message">Bienvenido, Jonathan Parra!</div>
+
+      <div class="bottoms">
+        <ul>
+          <li class="option_menu"><i class="fa fa-home fa-2x" aria-hidden="true"></i> home <i class="fa fa-angle-down" aria-hidden="true"></i>
+            <ul class="hide sub_menu">
+              <li class="arequipa_team">Arequipa Team</li>
+              <li class="cdmx_team">CDMX Team</li>
+              <li class="lima_team">Lima Team</li>
+              <li class="santiago_team">Santiango Team</li>
+            </ul>
+          </li>
+          <li class="option_menu"><i class="fa fa-plus fa-2x" aria-hidden="true"></i> add <i class="fa fa-angle-down" aria-hidden="true"></i>
+            <ul class="hide sub_menu">
+              <li class="add_data"> Data</li>
+              <li class="add_table"> Modify</li>
+              <li class="add_stuff"> Delete</li>
+            </ul>
+          </li>
+          <li class="option_menu"><i class="fa fa-pie-chart fa-2x" aria-hidden="true"></i> data <i class="fa fa-angle-down" aria-hidden="true"></i>
+            <ul class="hide sub_menu">
+              <li class="more">More</li>
+              <li class="statistics">Statistics</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </section>
+  <main class="container-general">
+   <select id="filtro" onchange="filtrarElementos(event)">
+   <option>Selecciona una opcion</option>
+
+    <option class="option_select"data-sede="AQP" data-year-gen="2016-2" >Arequipa 2016' II</option>
+    <option data-sede="AQP"data-year-gen="2017-1" >Arequipa 2017' II</option>
+
+    <option data-sede="CDMX" data-year-gen="2017-1">México 2017' I</option>
+    <option  data-sede="CDMX" data-year-gen="2017-2">México 2017' II</option>
+
+    <option data-sede="LIM" data-year-gen="2016-2">Lima 2016' II</option>
+
+    <option data-sede="LIM" data-year-gen="2017-1">Lima 2017' I</option>
+    <option data-sede="LIM" data-year-gen="2017-2">Lima 2017' II</option>
+
+    <option data-sede="SCL" data-year-gen="2016-2">Santiago 2016' II</option>
+
+    <option data-sede="SCL" data-year-gen="2017-1">Santiago 2016' I</option>
+    <option data-sede="SCL" data-year-gen="2017-2">Santiago 2016' II</option>
+ </select>
+
+ <!--<section class="tabs">
+
+        <div class="tab_container">
+          <article id="overview"> -->
+            <ul class="tab_menu">
+              <li> <button type="button" name="button"  data-tab-seleccionado= 'tabOverview' id="overviewButton" onclick="pintarOverview">OVERVIEW</button> </li>
+              <li> <button type="button" name="button"  data-tab-seleccionado= 'tabStudents' id="studentsButton" onclick="pintarCoders">STUDENTS</button> </li>
+              <li> <button type="button" name="button"  data-tab-seleccionado= 'tabTeachers' class="teachersButton">TEACHERS</button> </li>
+            </ul>
+          <!--    <li>Enrollment</li>
+              <li>Achievement</li>
+              <li>Net Promoter Score</li>
+              <li>Teach Skills</li>
+              <li>Life Skills</li>
+              <li>Student Satisfaction</li>
+              <li>Teacher Rating</li>
+              <li>Jedi Master Rating</li>
+            </ul>
+          </article>
+          <article id="students">
+            <p id="contenedor-coders"></p>
+          </article>
+          <article id="teachers">
+            <p>Inserte block de profesores</p>
+          </article>
+        </div>
+      </section> -->
+
+ <p id="contenedor-coders"></p>
+</main>
+
+  <script src="./js/data.js"></script>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+ <script src="./js/app.js"></script>
+</body>
+</html>

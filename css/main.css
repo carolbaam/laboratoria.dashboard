@@ -1,0 +1,337 @@
+
+/*
+ * Estilos de tu proyecto
+ */
+
+.container-general{
+  width:70%;
+  float: right;
+  background: #e1e1e1;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family:  'Montserrat', sans-serif;
+    background: #e1e1e1;
+
+
+
+
+  }
+
+  .general {
+    height: 70%;
+  }
+  header{
+    background: white;
+  }
+  header > img {
+    margin-left: 38%;
+  }
+
+  nav {
+
+
+    display: inline-block;
+    width: 100%;
+    height: 15%;
+    background-color: #F6B618;
+  }
+
+  nav > img {
+    display: inline-block;
+    margin-left: 6%;
+    margin-top: 1%;
+  }
+
+  .fa-user-circle-o {
+    float: right;
+    color: #FFF;
+    margin-top: 1.5%;
+    margin-right: 3%;
+  }
+
+  .fa-bell {
+    float: right;
+    color: #FFF;
+    margin-top: 2.2%;
+    margin-right: 3%;
+  }
+
+  .fa-bars {
+    float: right;
+    color: #FFF;
+    margin-top: 2.2%;
+    margin-right: 3%;
+  }
+
+  /*Barra de menu lateral*/
+
+  .main_menu {
+    display: inline-block;
+
+    background-color: #333333;
+    width: 20%;
+    height: 5000px;
+  }
+
+  .main_menu > img {
+    margin-left: 16%;
+  }
+
+  .main_menu > .fa-user-circle-o {
+    float: left;
+    color: #FFF;
+    margin-left: 10%;
+  }
+
+  .main_menu > .welcome_message {
+    color: #FFF;
+    text-align: center;
+    margin-top: 3%;
+    margin-right: 3%;
+  }
+
+  .main_menu > .bottoms {
+    margin-top: 25%;
+  }
+
+  .main_menu > .bottoms > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 50px;
+  }
+
+  .main_menu > .bottoms > ul > li {
+    outline: 1px solid #FFF;
+    background-color: #F6B618;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .main_menu > .bottoms > ul > li {
+    font-size: 20px;
+  }
+
+  .main_menu > .bottoms > ul > li > i {
+    margin-left: 15px;
+  }
+
+  .bottoms > ul > .option_menu > .fa-home {
+    margin-right: 30px;
+  }
+
+  .bottoms > ul > .option_menu > .fa-plus {
+    margin-right: 36px;
+  }
+
+  .bottoms > ul > .option_menu > .fa-pie-chart {
+    margin-right: 27px;
+  }
+
+  .bottoms > ul > .option_menu > .fa-bar-chart {
+    margin-right: 20px;
+  }
+
+  .bottoms > ul > .option_menu > .fa-angle-down {
+    float: right;
+    margin-top: 17px;
+    margin-right: 25px;
+  }
+
+  .sub_menu {
+    background-color: #F5F5F5;
+    list-style: none;
+    margin: 1px -10px -10px;
+    padding: 0;
+    line-height: 50px;
+  }
+
+  .sub_menu > li {
+    display: block;
+    margin-left: 55px;
+    text-decoration: none;
+    color: #000;
+  }
+
+  .bottoms > ul > .option_menu:hover {
+    background-color: #E8B007;
+  }
+
+
+  .hide {
+    display: none;
+  }
+
+  .show {
+    display: block;
+  }
+
+  /*Estilos para tab*/
+
+  .main_menu, .mini_body {
+
+  }
+
+  .mini_body {
+    display: inline-block;
+    background-color: #F5F5F5;
+    width: 80%;
+    height: 100%;
+    padding: 0;
+    margin-left: 20%;
+  }
+
+  .mini_body > #sede {
+    display: inline-block;
+    margin-left: 37%;
+    margin-top: 10%;
+  }
+
+  #filtro {
+    display: inline-block;
+
+    font-size: 17px;
+    color: #7D7D7D;
+    padding: 10px;
+    border-radius: 5%;
+    border-color: #F6B618;
+    margin-top: 100px;
+  }
+
+  #filtro:focus {
+    outline: none;
+  }
+
+  .mini_body > #sede > #filtro > .option_select {
+    padding: 20px;
+    color: #000;
+  }
+
+  .option_select:focus {
+    outline: none;
+  }
+
+  .option_select:hover {
+    background-color: #F6B618;
+    color: #FFF;
+  }
+
+
+
+
+  .tab_menu {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin-left: 10%;
+    margin-top: 0px;;
+    border-bottom: 4px solid #F6B618;
+
+  }
+
+  .tab_menu > li {
+    display: inline-block;
+    margin-right: 35px;
+  }
+
+  .tab_menu > li > button {
+    border-style: none;
+    font-size: 20px;
+    padding: 15px;
+  }
+
+  button:focus {
+    outline: none;
+  }
+
+  button:hover {
+    background-color: #A1A1A1;
+    color: #FFF;
+  }
+
+
+
+  .nombre{
+    font-weight: bold;
+    font-size: 20px;
+
+  }
+
+  .puntajesDiv,
+  .puntajesDiv1{
+    background: #fcb637;
+    width: 300px;
+    margin-left:10px;
+    border:solid 1px black;
+    padding-left: 10px;
+
+
+  }
+
+  .puntajesDiv1{
+    background: rgb(165, 160, 160);
+
+  }
+
+
+.achievement,
+.enrollement,
+.nps,
+.satisfaccionDiv,
+.teacherDiv,
+.jediDiv,
+.enrollement,
+.coder {
+    display: inline-block;
+    width: 40%;
+    height: 50%;
+    padding: 20px;
+
+    background: rgb(250, 250, 250);
+    margin:10px;
+    border:solid gray 1px;
+    border-radius: 5px;
+
+}
+
+.achievement,
+.enrollement,
+.nps,
+.satisfaccionDiv,
+.teacherDiv,
+.jediDiv,
+  .enrollement,{
+    text-align: left;
+  }
+
+
+
+
+  .promedioTech,
+  .promedioHse{
+
+font-size: 35px;
+  }
+
+  .secciones-divs{
+    border:solid grey 1px;
+  }
+
+
+
+  .titulosOverview{
+    font-size: 25px;
+    background: #fcb637;
+    padding: 10px;
+  }
+
+  .numerosOverview{
+    font-size:30px;
+  }
